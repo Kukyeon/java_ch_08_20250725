@@ -42,7 +42,7 @@ public class BookMain {
 				
 				System.out.println("----- 도서 목록 -----");
 				for(Book bookTemp:bookService.getAllBooks()) {
-					System.out.println(bookTemp);
+					System.out.println(bookTemp.getTitle() + " / " + bookTemp.getAuthor());
 				}
 				break;
 			case 3:
