@@ -20,9 +20,9 @@ public class BookMain {
 			System.out.println("==================");
 			System.out.print("메뉴 선택 :  ");
 			scanner.nextInt();// 사용자가 입력한 정수 번호 가져오기
-			int chouceNem = scanner.nextInt();
+			int choiceNem = scanner.nextInt();
 			System.out.println("==================");
-			switch(chouceNem) {
+			switch(choiceNem) {
 			
 			case 1:
 				
